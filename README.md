@@ -9,7 +9,7 @@
 6. Write in the RED variable the IP address of your network (Line 16).
 7. Save the file changes.
 
-    #Spanish
+    #Español
 1. Instala nmap en tu sistema Linux.
 2. Abre el archivo white_list.
 3. Escribe las direcciones MAC de los equipos de tu red con el formato que se muestra en el ejemplo.
