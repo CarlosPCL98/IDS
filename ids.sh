@@ -16,7 +16,7 @@ ID=""
 RED="192.168.0.0/24"
 
 	#White_list is an array that contains known MAC addresses (White list) // Archivo que contiene las direcciones MAC conocidas (Lista blanca).
-	white_list=$(cat white_list.txt | grep "MAC_Addres" | cut -c 13-30)
+	white_list=$(cat /home/pi/scripts/IDS/white_list.txt | grep "MAC_Addres" | cut -c 13-30)
 
 	#Array contains the MAC addresses of the hosts connected in your network // Contiene las direcciones MAC de los equipos conectados en tu red.
 	connected_host_list=$(sudo nmap -sP $RED | grep "MAC Address" | awk '{print $3}')
