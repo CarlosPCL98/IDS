@@ -1,6 +1,6 @@
 #! /bin/bash
 ##########################################################################################################################
-#Script Name	: IDS.sh
+#Script Name	: ids.sh
 #Description	: Send alert to Telegram if it detects an unknown host.
 #Args			:
 #Author			: Carlos Pérez
